@@ -1,0 +1,122 @@
+.keysenderec-welcome, .keysenderec-setup, .keysenderec-overview, .keysenderec-welcome *, .keysenderec-setup *, .keysenderec-overview * {
+	box-sizing: border-box;
+}
+.keysenderec-welcome {
+	border-left: 5px solid #3168D8;
+	padding-left: 10px;
+	background-color: #fff;
+	margin-top: 40px;
+}
+.keysenderec-logo {
+	max-width: 250px;
+}
+.keysenderec-logo img {
+	width: 100%;
+}
+.keysenderec-buttons a, .keysenderec-buttons a:link, .keysenderec-buttons a:active, .keysenderec-buttons a:focus, .keysenderec-buttons a:hover, .keysenderec-submit input {
+	position: initial;
+	display: inline-block !important;
+	margin: 7px 0 !important;
+	padding: 10px 20px !important;
+	background-color: #3858e9 !important;
+	color: #fff !important;
+	border-radius: 3px !important;
+	text-decoration: none !important;
+	min-height: auto !important;
+	line-height: 100% !important;
+	font-size: 13px !important;
+	width: 100%;
+	max-width: 230px;
+	text-align: center;
+}
+.keysenderec-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.keysenderec-flex .keysenderec-logo {
+	flex: 0 1 15%;
+}
+.keysenderec-flex .keysenderec-buttons-green {
+	padding-left: 20px;
+	flex: 1 0 85%;
+}
+.keysenderec-buttons-green a, .keysenderec-buttons-green a:link, .keysenderec-buttons-green a:active, .keysenderec-buttons-green a:focus, .keysenderec-buttons-green a:hover {
+	position: initial;
+	display: inline-block;
+	margin: 7px 0;
+	padding: 10px 20px;
+	background-color: #3168D8;
+	color: #fff;
+	border-radius: 3px;
+	text-decoration: none;
+	width: 100%;
+	max-width: 120px;
+	text-align: center;
+}
+.keysenderec-buttons-green a.btn-grey, .keysenderec-buttons-green a.btn-grey:link, .keysenderec-buttons-green a.btn-grey:active, .keysenderec-buttons-green a.btn-grey:focus, .keysenderec-buttons-green a.btn-grey:hover {
+	background-color: #828282;
+}
+.keysenderec-actions {
+	color: #bbb;
+}
+.keysenderec-fields input[type="text"], .keysenderec-fields input[type="password"], .keysenderec-fields label {
+	display: block;
+	width: 100%;
+	max-width: 300px;
+	margin-bottom: 7px;
+}
+.keysenderec-step {
+	margin-top: 10px;
+}
+.keysenderec-connected {
+	color: #4da975;
+}
+.keysenderec-disconnected {
+	color: #eb6868;
+}
+.ajax-loader {
+	margin: 10px 0 0;
+	width: 100%;
+	max-width: 300px;
+	text-align: center;
+	display: none;
+}
+.doing-ajax .ajax-loader {
+	display: block;
+}
+.keysenderec-setup + p.keysenderec-submit + p.submit {
+	display: none;
+}
+.keysenderec-overview + p.submit {
+	display: none;
+}
+.keysenderec-setup .woocommerce-help-tip {
+	height: 10px !important;
+	width: 10px !important;
+	font-size: 10px !important;
+	margin-top: -5px !important;
+}
+.keysenderec-setup .woocommerce-help-tip::after {
+	content: "?" !important;
+	font-weight: bold !important;
+	border-radius: 50%;
+	border: 1px solid #000;
+	line-height: 8px !important;
+}
+.keysenderec-disconnect {
+	margin-top: 10px;
+	display: block;
+}
+@media all and (max-width: 767px) {
+	.keysenderec-flex {
+		display: block;
+	}
+	.keysenderec-flex .keysenderec-logo {
+		flex: none;
+	}
+	.keysenderec-flex .keysenderec-buttons-green {
+		padding-left: 0;
+		flex: none;
+	}
+}

@@ -1,0 +1,108 @@
+=== Keysender Digital Product Distribution ===
+Contributors: keysender01, keysenderKeysender
+Tags: digital goods, digital products, marketplaces, order management
+Requires at least: 4.7
+Tested up to: 5.9.2
+Requires PHP: 7.0
+Stable tag: 1.2.1
+License: GPLv2 or later
+License URI: GNU General Public License v2.0 - GNU Project - Free Software Foundation
+
+Keysender helps digital product sellers grow big by automating tasks and reducing fraud. Source product, manage inventory, connect marketplaces and screen buyers before fulfillment to reduce chargebacks and lost inventory.
+
+== Description ==
+=== Keysender Digital Product Distribution ===
+
+Keysender provides a pay-per-use service to vendors of digital products such as software licenses, codes, gift cards, DLC, in-game currency, files and more.
+
+<strong>Keysender customers made over 14M transactions worth over $100M</strong>
+
+Video: What is Keysender?
+https://youtu.be/5y75xoMX6JE
+
+Here's how to get started...
+ 
+1. Bring your own products or purchase wholesale from <a href="https://supply.keysenderecommerce.com/?utm_campaign=wplugin" title="Keysender Supply">Keysender Supply</a>
+ 
+2. Connect to marketplaces like eBay and Mercado Libre
+ 
+3. Integrate Keysender to WooCommerce in minutes
+ 
+4. Take orders, screen out fraudulent buyers
+ 
+5. Scale order volume with automated messaging, access and digital product distribution at scale
+
+
+== Installation ==
+Watch our 3-minute video on <a href=“https://support.keysender.com" title=“Keysender for WooCommerce”>setting up Keysender and WooCommerce</a>
+
+ 
+1. <a href=“https://support.keysender.com" title=“Keysender WooCommerce”>Create an account</a> at Keysender (required)  
+ 
+2. Download the installation plugin
+ 
+3. Log in to the WordPress admin panel and go to plugins / add new.
+ 
+4. Select the upload plugin button and select the previously downloaded plugin file, then install and activate the plugin.
+ 
+5. Log in to the WordPress admin panel and go to plugins / add new. 
+
+6. In the search field, enter Keysender.
+ 
+7. With the appropriate plugin, click install now.
+ 
+8. Go to the tab WooCommerce/ Settings / Keysender and select the tab Setup.
+ 
+9. Log in to Keysender and go to the Integrations / WooCommerce and click the Stores tab 
+ 
+10. Click Add Store button, name your store, paste the store URL, and click Save
+  
+11. Go to Keysender and go to the _settings / account_settings. 
+ 
+12. If the keys are not generated, click Get API Key.
+ 
+13. Copy API Key and API Secret values to the appropriate fields in the plugin and click Connect.
+ 
+14. Go to the tab WooCommerce/ settings / Keysender and select the tab Overview.
+ 
+15. Click Manage Orders on Keysender to manage your orders or click Manage Products on Keysender to activate your products and start sending codes.
+ 
+You’re now ready to begin distributing digital products!
+
+
+== Frequently Asked Questions ==
+= I need help / plugin is not working =
+Please visit our <a href=“https://support.keysender.com" title=“Keysender WooCommerce”>Help Center</a>  at Keysender  Keysender Support and chat with us through the <em>Submit a request</em> button or email us support@keysender.com
+
+= Do I need to create a Keysender account? =
+Yes, it is required. Keysender is integrated with WordPress allowing you to seamlessly dispatch products to your customers. You can start with a free account at <a href=“https://support.keysender.com" title=“Keysender for WooCommerce”>Keysender Get Started</a> 
+
+= My products are not sending out =
+Make sure that:
+ 
+*The plugin has the status <em>Connected</em>
+ 
+*The store is added at Keysender
+ 
+*Monitoring is enabled at Keysender
+ 
+*You have enough inventory
+ 
+*You have enough credits on your Keysender account
+ 
+If the problem persists, contact us at: support@keysender.com or visit our support center Keysender Support https://support.keysender.com
+
+= Do you support recursive codes? =
+Yes, Keysender supports distribution of one time use codes and recursive codes.
+
+= How much does Keysender cost? = 
+Pricing varies depending on volume, but most vendors pay pennies per distribution <a href=“https://support.keysender.com" title=“Keysender Pricing”>Keysender Pricing</a>
+
+
+== Screenshots ==
+Screenshot1.jpg
+Screenshot2.png
+Screenshot3.jpg
+
+== Changelog ==
+= 1.2.1 =
